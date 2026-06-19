@@ -781,7 +781,7 @@ function drawLines() {
 (function anim() { ctx.clearRect(0,0,W,H); drawLines(); pts.forEach(p=>{p.update();p.draw();}); requestAnimationFrame(anim); })();
 
 // ── TYPEWRITER ───────────────────────────────────────────────
-const phrases = ['Software Engineer','Java Full Stack Developer','Spring Boot Expert','REST API Developer','Published AI Researcher','Backend Systems Builder'];
+const phrases = ['Software Engineer','Java Full Stack Developer','Spring Boot','REST API Developer','Published AI Researcher','Backend Systems Builder'];
 let pi=0, ci=0, del=false;
 function type() {
   const ph = phrases[pi];
