@@ -229,6 +229,28 @@ html.light #navbar{background:rgba(255,255,255,0.92)!important}
 html.light .nav-link{color:#475569!important}
 html.light .nav-link:hover,html.light .nav-link.active{color:#0f172a!important}
 html.light .mob-logo, html.light #mob-menu .nav-link{color:#0f172a!important}
+
+/* ── HERO NAME — works in both dark & light mode ── */
+.hero-first-name{
+  color:#f1f5f9;
+  transition:color 0.3s;
+}
+.hero-last-initial{
+  background:linear-gradient(135deg,#ffffff,#7c93b3);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  transition:all 0.3s;
+}
+html.light .hero-first-name{
+  color:#0f172a !important;
+}
+html.light .hero-last-initial{
+  background:linear-gradient(135deg,#1e3a5f,#2d4a6e) !important;
+  -webkit-background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+  background-clip:text !important;
+}
 </style>
 </head>
 <body class="bg-dark-900 text-white">
@@ -296,7 +318,7 @@ html.light .mob-logo, html.light #mob-menu .nav-link{color:#0f172a!important}
         <span style="width:6px;height:6px;background:#22c55e;border-radius:50%;animation:pulse 2s infinite"></span>
         Available for Opportunities
       </div>
-      <h1 style="font-size:clamp(42px,6vw,72px);font-weight:800;line-height:1;letter-spacing:-2.5px;color:#39648d;margin-bottom:8px">Akash&nbsp;<span style="background:linear-gradient(135deg,#7c93b3,#c0c5cc);-webkit-background-clip:text;-webkit-text-fill-color:transparent">A</span></h1>
+      <h1 style="font-size:clamp(42px,6vw,72px);font-weight:800;line-height:1;letter-spacing:-2.5px;margin-bottom:8px"><span class="hero-first-name">Akash&nbsp;</span><span class="hero-last-initial">A</span></h1>
       <div style="font-size:clamp(16px,2.5vw,22px);font-weight:500;color:rgba(255,255,255,0.5);margin-bottom:20px;letter-spacing:-.3px">
         <span id="typed-text" style="color:#b8c4d4"></span><span class="cursor"></span>
       </div>
@@ -326,7 +348,7 @@ html.light .mob-logo, html.light #mob-menu .nav-link{color:#0f172a!important}
         </div>
         <div style="width:1px;background:rgba(255,255,255,0.07)"></div>
         <div>
-          <div style="font-size:28px;font-weight:800;background:linear-gradient(135deg,#10b981,#34d399);-webkit-background-clip:text;-webkit-text-fill-color:transparent">3</div>
+          <div style="font-size:28px;font-weight:800;background:linear-gradient(135deg,#10b981,#34d399);-webkit-background-clip:text;-webkit-text-fill-color:transparent">4</div>
           <div style="font-family:JetBrains Mono,monospace;font-size:9px;letter-spacing:.12em;color:rgba(255,255,255,0.35);text-transform:uppercase;margin-top:3px">Projects</div>
         </div>
         <div style="width:1px;background:rgba(255,255,255,0.07)"></div>
@@ -463,6 +485,8 @@ html.light .mob-logo, html.light #mob-menu .nav-link{color:#0f172a!important}
           <div><div style="display:flex;justify-content:space-between;margin-bottom:6px"><span style="font-size:13px;color:#e2e8f0">🚂 Git &amp; GitHub</span><span style="font-family:JetBrains Mono,monospace;font-size:11px;color:#6b7280">85%</span></div><div class="skill-bar"><div class="skill-fill" data-width="85" style="background:linear-gradient(90deg,#f97316,#cfd4da)"></div></div></div>
           <div><div style="display:flex;justify-content:space-between;margin-bottom:6px"><span style="font-size:13px;color:#e2e8f0">🧪 Postman / Swagger</span><span style="font-family:JetBrains Mono,monospace;font-size:11px;color:#6b7280">82%</span></div><div class="skill-bar"><div class="skill-fill" data-width="82" style="background:linear-gradient(90deg,#f97316,#cfd4da)"></div></div></div>
           <div><div style="display:flex;justify-content:space-between;margin-bottom:6px"><span style="font-size:13px;color:#e2e8f0">☁️ AWS IAM</span><span style="font-family:JetBrains Mono,monospace;font-size:11px;color:#6b7280">65%</span></div><div class="skill-bar"><div class="skill-fill" data-width="65" style="background:linear-gradient(90deg,#f97316,#cfd4da)"></div></div></div>
+          <div><div style="display:flex;justify-content:space-between;margin-bottom:6px"><span style="font-size:13px;color:#e2e8f0">💳 Razorpay / Payments</span><span style="font-family:JetBrains Mono,monospace;font-size:11px;color:#6b7280">68%</span></div><div class="skill-bar"><div class="skill-fill" data-width="68" style="background:linear-gradient(90deg,#f97316,#cfd4da)"></div></div></div>
+          <div><div style="display:flex;justify-content:space-between;margin-bottom:6px"><span style="font-size:13px;color:#e2e8f0">🌊 TailwindCSS</span><span style="font-family:JetBrains Mono,monospace;font-size:11px;color:#6b7280">72%</span></div><div class="skill-bar"><div class="skill-fill" data-width="72" style="background:linear-gradient(90deg,#f97316,#cfd4da)"></div></div></div>
         </div>
       </div>
     </div>
@@ -470,7 +494,7 @@ html.light .mob-logo, html.light #mob-menu .nav-link{color:#0f172a!important}
     <div class="glass-card reveal" style="margin-top:20px;padding:22px 28px;border-radius:10px">
       <div style="font-family:JetBrains Mono,monospace;font-size:10px;letter-spacing:.15em;color:#cfd4da;text-transform:uppercase;margin-bottom:14px">Currently Levelling Up</div>
       <div style="display:flex;flex-wrap:wrap;gap:8px">
-        <span class="tag orange">🔄 Microservices</span><span class="tag orange">📨 Apache Kafka</span><span class="tag orange">🧪 JUnit 5 + Mockito</span><span class="tag orange">🏗 System Design</span><span class="tag orange">⚙️ GitHub Actions CI/CD</span><span class="tag orange">☸️ Kubernetes</span>
+        <span class="tag orange">🔄 Microservices</span><span class="tag orange">📨 Apache Kafka</span><span class="tag orange">🧪 JUnit 5 + Mockito</span><span class="tag orange">🏗 System Design</span><span class="tag orange">⚙️ GitHub Actions CI/CD</span><span class="tag orange">☸️ Kubernetes</span><span class="tag orange">🌐 Nginx</span><span class="tag orange">🧭 React Router v6</span>
       </div>
     </div>
   </div>
@@ -487,11 +511,49 @@ html.light .mob-logo, html.light #mob-menu .nav-link{color:#0f172a!important}
         <button class="filter-btn" data-filter="java">Java</button>
         <button class="filter-btn" data-filter="ai">AI / ML</button>
         <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+        <button class="filter-btn" data-filter="backend">Backend</button>
       </div>
     </div>
     <div id="proj-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:22px">
 
-      <!-- PROJECT 1 -->
+      <!-- PROJECT 01 — AK TRAVEL PARTNER (BUS BOOKING) -->
+      <div class="glass-card proj-item reveal" data-cats="java fullstack backend" style="border-radius:12px;overflow:hidden">
+        <div class="proj-banner" style="background:linear-gradient(135deg,#060d1f,#0d1526)">
+          <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 30% 60%,rgba(30,58,95,0.18),transparent 55%),radial-gradient(ellipse at 80% 30%,rgba(192,197,204,0.06),transparent 50%)"></div>
+          <span class="proj-emoji">🚌</span>
+          <div style="position:absolute;top:12px;right:12px;display:flex;flex-direction:column;gap:5px;z-index:2">
+            <span style="padding:3px 10px;background:rgba(30,58,95,0.2);border:1px solid rgba(124,147,179,0.4);border-radius:3px;font-family:JetBrains Mono,monospace;font-size:9px;color:#b8c4d4">Seat Lock · 10-min TTL</span>
+            <span style="padding:3px 10px;background:rgba(192,197,204,0.08);border:1px solid rgba(192,197,204,0.25);border-radius:3px;font-family:JetBrains Mono,monospace;font-size:9px;color:#dde1e6">Razorpay Integration</span>
+          </div>
+          <div style="position:absolute;bottom:10px;left:14px;font-family:JetBrains Mono,monospace;font-size:9px;color:rgba(255,255,255,0.25);letter-spacing:.15em">PROJECT 01</div>
+        </div>
+        <div style="padding:24px">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap">
+            <span style="display:inline-flex;align-items:center;gap:5px;padding:3px 9px;background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.2);border-radius:3px;font-family:JetBrains Mono,monospace;font-size:9px;color:#4ade80;font-weight:600">● COMPLETED</span>
+            <span style="display:inline-flex;align-items:center;gap:5px;padding:3px 9px;background:rgba(30,58,95,0.15);border:1px solid rgba(124,147,179,0.25);border-radius:3px;font-family:JetBrains Mono,monospace;font-size:9px;color:#b8c4d4;font-weight:600">🏗 MNC-LEVEL ARCHITECTURE</span>
+          </div>
+          <h3 style="font-size:18px;font-weight:700;color:#f1f5f9;margin-bottom:8px;line-height:1.2">AK Travel Partner — Bus Booking System</h3>
+          <p style="font-size:13px;color:rgba(255,255,255,0.45);line-height:1.75;margin-bottom:14px">Full-stack online bus booking platform inspired by RedBus &amp; AbhiBus. Features visual interactive seat selection with <strong style="color:rgba(255,255,255,0.7)">10-minute TTL seat locking</strong> to prevent double-booking, Razorpay payment integration (UPI/Card/NetBanking/Wallet), auto PNR generation, e-ticket email confirmation via JavaMail, dynamic cancellation refund policy, and full RBAC for Passenger, Operator, and Admin roles.</p>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px">
+            <div style="text-align:center;padding:8px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.05);border-radius:5px"><div style="font-size:13px;font-weight:700;color:#b8c4d4">10-min</div><div style="font-family:JetBrains Mono,monospace;font-size:9px;color:rgba(255,255,255,0.3)">Seat Lock TTL</div></div>
+            <div style="text-align:center;padding:8px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.05);border-radius:5px"><div style="font-size:13px;font-weight:700;color:#e8eaed">3</div><div style="font-family:JetBrains Mono,monospace;font-size:9px;color:rgba(255,255,255,0.3)">User Roles</div></div>
+            <div style="text-align:center;padding:8px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.05);border-radius:5px"><div style="font-size:13px;font-weight:700;color:#4ade80">14+</div><div style="font-family:JetBrains Mono,monospace;font-size:9px;color:rgba(255,255,255,0.3)">API Endpoints</div></div>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:16px">
+            <span class="tag">Java 17</span><span class="tag">Spring Boot 3.2</span><span class="tag">Spring Security</span><span class="tag">JWT</span>
+            <span class="tag green">MySQL 8</span><span class="tag green">Hibernate 6</span><span class="tag green">Spring Data JPA</span>
+            <span class="tag gold">Razorpay</span><span class="tag gold">JavaMail SMTP</span>
+            <span class="tag">React 18</span><span class="tag">React Router v6</span><span class="tag">TailwindCSS</span><span class="tag">Axios</span>
+            <span class="tag orange">Docker</span><span class="tag orange">Docker Compose</span><span class="tag orange">Nginx</span>
+          </div>
+          <div style="display:flex;gap:8px">
+            <a href="https://github.com/akashak328" target="_blank" class="grad-btn" style="flex:1;padding:9px;border-radius:5px;font-size:12px;font-weight:600;color:#fff;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:5px">⎇ GitHub</a>
+            <span style="flex:1;padding:8px;border:1px solid rgba(255,255,255,0.08);border-radius:5px;font-size:12px;font-weight:500;color:rgba(255,255,255,0.25);display:flex;align-items:center;justify-content:center;gap:5px">🚧 Live Demo Soon</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 — TELEMEDICINE (was PROJECT 1) -->
       <div class="glass-card proj-item reveal" data-cats="java fullstack" style="border-radius:12px;overflow:hidden">
         <div class="proj-banner" style="background:linear-gradient(135deg,#0a1729,#0d1a35)">
           <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 30% 60%,rgba(30,58,95,0.12),transparent 55%)"></div>
@@ -500,7 +562,7 @@ html.light .mob-logo, html.light #mob-menu .nav-link{color:#0f172a!important}
             <span style="padding:3px 10px;background:rgba(30,58,95,0.15);border:1px solid rgba(30,58,95,0.3);border-radius:3px;font-family:JetBrains Mono,monospace;font-size:9px;color:#b8c4d4">AES-256 Encrypted</span>
             <span style="padding:3px 10px;background:rgba(192,197,204,0.12);border:1px solid rgba(192,197,204,0.3);border-radius:3px;font-family:JetBrains Mono,monospace;font-size:9px;color:#e8eaed">WebRTC P2P</span>
           </div>
-          <div style="position:absolute;bottom:10px;left:14px;font-family:JetBrains Mono,monospace;font-size:9px;color:rgba(255,255,255,0.25);letter-spacing:.15em">PROJECT 01</div>
+          <div style="position:absolute;bottom:10px;left:14px;font-family:JetBrains Mono,monospace;font-size:9px;color:rgba(255,255,255,0.25);letter-spacing:.15em">PROJECT 02</div>
         </div>
         <div style="padding:24px">
           <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap">
@@ -533,7 +595,7 @@ html.light .mob-logo, html.light #mob-menu .nav-link{color:#0f172a!important}
             <span style="padding:3px 10px;background:rgba(16,185,129,0.12);border:1px solid rgba(16,185,129,0.3);border-radius:3px;font-family:JetBrains Mono,monospace;font-size:9px;color:#6ee7b7">2dsphere GPS</span>
             <span style="padding:3px 10px;background:rgba(30,58,95,0.12);border:1px solid rgba(30,58,95,0.3);border-radius:3px;font-family:JetBrains Mono,monospace;font-size:9px;color:#b8c4d4">WebSocket Live</span>
           </div>
-          <div style="position:absolute;bottom:10px;left:14px;font-family:JetBrains Mono,monospace;font-size:9px;color:rgba(255,255,255,0.25);letter-spacing:.15em">PROJECT 02</div>
+          <div style="position:absolute;bottom:10px;left:14px;font-family:JetBrains Mono,monospace;font-size:9px;color:rgba(255,255,255,0.25);letter-spacing:.15em">PROJECT 03</div>
         </div>
         <div style="padding:24px">
           <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap">
@@ -565,7 +627,7 @@ html.light .mob-logo, html.light #mob-menu .nav-link{color:#0f172a!important}
             <span style="padding:3px 10px;background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.3);border-radius:3px;font-family:JetBrains Mono,monospace;font-size:9px;color:#4ade80">94% Accuracy</span>
             <span style="padding:3px 10px;background:rgba(192,197,204,0.12);border:1px solid rgba(192,197,204,0.3);border-radius:3px;font-family:JetBrains Mono,monospace;font-size:9px;color:#e8eaed">Published · INDJCST</span>
           </div>
-          <div style="position:absolute;bottom:10px;left:14px;font-family:JetBrains Mono,monospace;font-size:9px;color:rgba(255,255,255,0.25);letter-spacing:.15em">PROJECT 03 · RESEARCH</div>
+          <div style="position:absolute;bottom:10px;left:14px;font-family:JetBrains Mono,monospace;font-size:9px;color:rgba(255,255,255,0.25);letter-spacing:.15em">PROJECT 04 · RESEARCH</div>
         </div>
         <div style="padding:24px">
           <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap">
